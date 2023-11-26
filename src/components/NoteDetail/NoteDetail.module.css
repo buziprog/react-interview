@@ -1,0 +1,95 @@
+.noteDetail {
+  position: absolute;
+  right: 0;
+  top: 50px;
+  width: 50%;
+  height: 95%;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #eaeaea;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+.titleInput {
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21.79px;
+  color: #323338;
+  resize: vertical;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.contentTextarea {
+  width: 100%;
+  height: 80%;
+  margin-bottom: 10px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.79px;
+  color: #323338;
+  resize: vertical;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.buttonsContainer {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  width: calc(100% - 40px);
+  display: flex;
+  justify-content: space-between;
+}
+
+.saveBtn,
+.deleteBtn {
+  background-color: #71cf48;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 32px;
+  width: 150px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.saveBtn::after,
+.deleteBtn::after {
+  content: "";
+  height: 100%;
+  width: 1px;
+  background-color: #68c142;
+  position: absolute;
+  left: 70%;
+}
+
+.deleteBtn::after {
+  background-color: #eb4345;
+}
+
+.saveBtn svg,
+.deleteBtn svg {
+  margin-left: 5px;
+}
+
+.deleteBtn {
+  background-color: #fe4c4a;
+}

@@ -1,0 +1,34 @@
+.noteItem {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.noteItem h3,
+.noteItem p {
+  margin: 0;
+  padding: 0 10px;
+  white-space: nowrap;
+
+  width: calc(100% - 20px);
+  box-sizing: border-box;
+}
+
+.noteItem h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21.79px;
+  color: #323338;
+}
+
+.noteItem p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.79px;
+  color: #323338;
+}

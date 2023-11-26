@@ -1,0 +1,122 @@
+.createNoteContainer {
+  width: 98%;
+  height: 100%;
+}
+
+.topBar {
+  display: flex;
+  align-items: center;
+}
+
+.createNoteBtn {
+  background-color: #71cf48;
+  color: white;
+  padding: 10px 15px 10px 10px;
+  border-radius: 5px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  border: none;
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 32px;
+}
+
+.btnContent {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.btnContent::after {
+  content: "";
+  height: 32px;
+  width: 1px;
+  background-color: #68c142;
+  position: absolute;
+  left: 80%;
+  margin-right: 5px;
+}
+
+.plusIcon {
+  margin-left: 20px;
+  font-size: larger;
+}
+
+.noteForm {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+  height: 100%;
+  width: 100%;
+}
+
+.noteInput,
+.noteTextarea {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #fff;
+  width: 100%;
+  outline: none;
+  height: 100%;
+}
+
+.noteTextarea {
+  height: 450px;
+}
+
+.formButtons {
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 77%;
+}
+
+.cancelBtn,
+.saveBtn {
+  background-color: #71cf48;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 32px;
+  width: 150px;
+  overflow: hidden;
+}
+
+.cancelBtn::after {
+  content: "";
+  height: 100%;
+  width: 1px;
+  background-color: #eb4345;
+  position: absolute;
+  right: 40px;
+}
+.saveBtn::after {
+  content: "";
+  height: 100%;
+  width: 1px;
+  background-color: #68c142;
+  position: absolute;
+  right: 40px;
+}
+
+.cancelBtn {
+  background-color: #fe4c4a;
+}
+
+.cancelBtn svg,
+.saveBtn svg {
+  margin-left: 5px;
+  font-size: 16px;
+}

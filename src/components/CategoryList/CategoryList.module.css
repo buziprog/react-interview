@@ -1,0 +1,33 @@
+.categoryItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #1264a3;
+  color: white;
+  cursor: pointer;
+}
+
+.categoryItem:hover,
+.categoryItem.selected {
+  background-color: #f8f8fa;
+  color: #323338;
+}
+
+.categoryItem h3 {
+  margin: 0;
+  flex-grow: 1;
+  padding-left: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19.07px;
+  color: #ffffff;
+}
+
+.folderIcon,
+.triangleIcon {
+  font-size: 20px;
+}

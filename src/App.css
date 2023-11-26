@@ -1,0 +1,67 @@
+.App {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.sidebar {
+  width: 20%;
+  height: 100%;
+  padding: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+  overflow-y: auto;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.noteDetailClosed {
+  width: 75%;
+}
+
+.noteDetailOpen {
+  width: calc(55% - 45px); /* Adjusted for a 45% NoteDetail width */
+}
+
+.note-creation-tools {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+}
+
+.noteDetail {
+  width: 45%;
+}
+
+.noteItem {
+  margin-bottom: 15px;
+  padding: 15px 10px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.noteItem h3,
+.noteItem p {
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: calc(100% - 20px);
+}

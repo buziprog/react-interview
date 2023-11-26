@@ -1,0 +1,88 @@
+.createCategoryContainer {
+  position: relative;
+  width: 100%;
+}
+
+.createCategoryBtn {
+  width: 100%;
+  background-color: #71cf48;
+  color: white;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19.07px;
+  border: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 32px;
+}
+
+.btnContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.btnContent::after {
+  content: "";
+  position: absolute;
+  right: 40px;
+  height: 32px;
+  width: 1px;
+  background-color: #68c142;
+}
+
+.plusIcon {
+  position: absolute;
+  right: 10px;
+  margin-right: 5px;
+  font-size: larger;
+  align-items: center;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.inputField {
+  flex-grow: 1;
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  margin-right: 5px;
+}
+
+.checkBtn,
+.closeBtn {
+  width: 30px !important;
+  height: 30px !important;
+  background-color: #71cf48;
+  color: white;
+  border: none;
+  padding: 0;
+  border-radius: 5px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.closeBtn {
+  background-color: #fe4c4a;
+}
